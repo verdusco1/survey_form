@@ -1,0 +1,95 @@
+
+body {
+    background-image: url("images/survey-background.jpg");
+    background-color: #333;
+    background-size: 100%;
+    background-repeat: 100%;
+    color: rgb(233, 233, 233);
+    font-size: 20px;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (max-width: 700px) {
+    body {
+        background-image: url("images/survey-mobile.jpg");
+        background-size: 100vh;
+        background-attachment: ;
+    }
+}
+  #main {
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 5px;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 15px;
+    height: auto !important;
+  }
+
+  @media screen and (max-width: 700px) {
+    #main {
+        width: 100% ;
+        padding: 0px;
+
+    }
+}
+
+  #title-div {
+      padding-top: rem;
+
+  }
+
+  #title {
+    margin: 0;
+  }
+
+  .input-div,
+  #dropdown-div,
+  .radio-div,
+  #checkbox-div,
+  #text-area-div {
+    margin-bottom: 1.5rem;
+  }
+
+  .input-div input,
+  #dropdown-div select,
+  #text-area-div textarea {
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+
+    /* equal box sizing for input and select element*/
+    -ms-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+
+  #text-area-div textarea {
+    height: 75px;
+    width: 250px;
+  }
+
+  .radio-div p,
+  #checkbox-div p {
+    margin: 0;
+  }
+
+  #submit {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+
+  }
+
+  #submit:hover {
+    background-color: rgb(187, 187, 187);
+  }

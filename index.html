@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coding Journey Survey - Tell Us About Yourself</title>
+</head>
+<body>
+    <section id="main">
+        <div id="title-div">
+          <h1 id="title">
+            How long have you been learning to code?
+          </h1>
+          <p id="description">
+            We want to know about your journey!
+          </p>
+        </div>
+        <form action="nananana" id="survey-form">
+          <div class="input-div">
+            <label id="name-label"
+                   for="name">Name</label><br />
+            <input id="name"
+                   type="name"
+                   name="name"
+                   placeholder="Enter your name"
+                   required />
+          </div>
+          <div class="input-div">
+            <label id="email-label"
+                   for="email">Email</label><br />
+            <input type="email"
+                   id="email"
+                   name="email"
+                   placeholder="Enter your e-mail"
+                   required />
+          </div>
+          <div class="input-div">
+            <label id="number-label"
+                   for="months">How many hours do you study a day?</label><br />
+            <input type="number"
+                   min="1"
+                   max="12"
+                   id="number"
+                   name="months"
+                   placeholder="Hours"
+                   required />
+          </div>
+          <div id="dropdown-div">
+            <label for="dropdown">What's your favorite resource?</label><br />
+            <select name="dropdown" id="dropdown">
+              <option value="placeholder">Select One</option>
+              <option value="google">Google</option>
+              <option value="stackoverflow">Stack Overflow</option>
+              <option value="YouTube">YouTube</option>
+              <option value="mdn docs">MDN Docs</option>
+              <option value="w3 schools">W3 Schools</option>
+          </select>
+        </div>
+          <div class="radio-div">
+            <p>Do you enjoy coffee?</p>
+            <label for="yes">Yes</label>
+            <input type="radio" name="yes" value="yes">
+            <label for="no">No</label>
+            <input type="radio" name="no" value="no">
+          </div>
+          <div class="radio-div">
+            <p>Does the coffee enjoy you?</p>
+            <label for="yes">Yes</label>
+            <input type="radio" name="yes" value="yes">
+            <label for="no">No</label>
+            <input type="radio" name="no" value="no">
+          </div>
+          <div id="checkbox-div">
+            <p>Select All That Apply</p>
+            <label for="yellow">I like Yellow</label>
+            <input type="checkbox"
+                   value="yellow"
+                   name="yellow" /><br/>
+              <label for="red">I Like Red</label>
+            <input type="checkbox"
+                   value="red"
+                   name="red" /><br/>
+              <label for="blue">I Like Blue</label>
+            <input type="checkbox"
+                   value="blue"
+                   name="blue" /><br/>
+          </div>
+          <div id="text-area-div">
+            <label for="feedback">Comments</label><br/>
+            <textarea name="feedback"
+                      id="feedback"
+                      >
+                      </textarea>
+          </div>
+          <button id="submit" type="submit">
+            Submit
+          </button>
+        </form>
+      </section>
+</body>
+</html>
